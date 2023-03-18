@@ -1,15 +1,4 @@
----
-title: "Google Data Analytics Capstone Project"
-author: "Damani Hylton"
-date: "2023-01-20"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# [Bellabeat Analysis]{.underline}
+# [Bellabeat Analysis]
 
 ### Business Task
 
