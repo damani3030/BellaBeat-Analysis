@@ -2,7 +2,7 @@
 title: "Google Data Analytics Capstone Project"
 author: "Damani Hylton"
 date: "2023-01-20"
-output: rmarkdown::github_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -254,8 +254,6 @@ sleep_vs_steps %>%
 ```
 
 ## Analysis
-
-... what hours they can use a bump in motivation from a Bellabeat membership and perhaps a reminder on their smart device- if nothing wrong, give some mindfulness, stress relief from app) also which day of the week is more active perhaps?? OR who slept more burnt more calories in the day for plot??? FILTER OUT PARTICIPANTS THAT HAVE LESS THAN 8HRS OF SLEEP AND RECOMMEND IN MY ANALYSIS TO USE APP TO HELP THEM SLEEP, WELLNESS SIDE OF APP
 
 ### Now that we have some data cleaned and merged, we can begin some exploratory analysis
 
