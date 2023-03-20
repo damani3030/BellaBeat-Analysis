@@ -508,6 +508,7 @@ ggplot(data = combined_merge, mapping = aes(x = week_dayz, y = calories, color =
 ```
 
 ![](google_capstone_project_bellabeat_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
+
 Thursdays and Saturdays seem like the days participants are burning the
 most calories, with Fridays and Sundays being the least.
 
@@ -526,8 +527,10 @@ ggplot(data = combined_merge, mapping = aes(x = total_minutes_asleep, y = total_
 ```
 
 ![](google_capstone_project_bellabeat_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
-\#### Figure 4 Hourly Activity: what hours are the participants most
-active?
+
+#### Figure 4
+
+Hourly Activity: what hours are the participants most active?
 
 ``` r
 twenty_four_hrs <- format(as.POSIXct(combined_hourly$activity_hour), format = "%H")
