@@ -471,7 +471,8 @@ ggplot(data = sleep_vs_steps, mapping = aes(x = avg_sleeping_mins, y = avg_total
 
     ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
-![](google_capstone_project_bellabeat_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![unnamed-chunk-25-1](https://user-images.githubusercontent.com/90022763/229135309-bf3620b4-c0d2-4344-95dd-7221f4898f5d.png)
+
 
 As shown, it does NOT seem, at least for these 30 women, that more sleep
 on average, leads to more average total steps. Running a correlation
@@ -499,7 +500,8 @@ ggplot(data = combined_merge, mapping = aes(x = week_dayz, y = calories, color =
   scale_color_discrete("Legend")
 ```
 
-![](google_capstone_project_bellabeat_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
+![unnamed-chunk-27-1](https://user-images.githubusercontent.com/90022763/229135461-0ed70bdc-a5c6-4f6a-b865-2c1c567b510b.png)
+
 
 Thursdays and Saturdays seem like the days participants are burning the
 most calories, with Fridays and Sundays being the least.
@@ -518,7 +520,8 @@ ggplot(data = combined_merge, mapping = aes(x = total_minutes_asleep, y = total_
   scale_color_discrete("Week Day")
 ```
 
-![](google_capstone_project_bellabeat_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
+![unnamed-chunk-28-1](https://user-images.githubusercontent.com/90022763/229135526-e05e0d27-a494-4ad2-9780-e6d6e2df8d35.png)
+
 
 #### Figure 4
 
@@ -532,7 +535,8 @@ ggplot(data = combined_hourly, aes(x = twenty_four_hrs, y = step_total, fill = t
   labs(title = "Hourly Steps", x = "Activity Hour", y = "Step Total")
 ```
 
-![](google_capstone_project_bellabeat_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+![unnamed-chunk-29-1](https://user-images.githubusercontent.com/90022763/229135576-6c909992-f6ee-46ae-b8fa-e9fb01ba0eab.png)
+
 
 ``` r
 combined_merge %>% 
